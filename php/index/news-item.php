@@ -1,10 +1,10 @@
 <div class="news-item">
     <div class="news-item__img">
-        <img src=<?php echo $news[$i]["image"] ?> alt="Волейбол">
+        <img src=<?php echo $news[$i]["image"] ?>>
 
         <div class="news-item__info">
             <div class="news-item__info-title">
-                <?php echo $news[$i]["title"] ?>
+                <?php echo $news[$i]["category"] ?>
             </div>
 
             <div class="news-item__info-stats">

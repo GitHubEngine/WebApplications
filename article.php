@@ -16,12 +16,10 @@ require("php/blocks/head.php");
 		require("php/blocks/header.php");
 		require("php/article/article-main.php");
 		require("php/blocks/footer.php");
-
 		?>
 	</div>
-
+	
 
 	<script src="js/scripts.min.js"></script>
 </body>
-
 </html>

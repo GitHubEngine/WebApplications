@@ -1,5 +1,5 @@
 <?php 
-    $news = getNews(3);
+    $news = getNews(6);
 ?>
 
 <main>
