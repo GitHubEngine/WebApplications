@@ -8,6 +8,7 @@ session_start();
 <html lang="ru">
 
 <?php
+$title="Новости";
 require("php/blocks/head.php");
 ?>
 
