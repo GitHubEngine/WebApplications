@@ -25,7 +25,7 @@
 			</div>
 		</div>
 
-		<a class="news-item__img-link" href="../php/article/article.php"></a>
+		<a class="news-item__img-link" href="article.php"></a>
 	</div>
 
 	<div class="news-item__text">
@@ -35,7 +35,7 @@
 	</div>
 
 	<div class="news-item__footer">
-		<a class="news-item__btn btn btn--sm" href="../php/article/article.php">Подробнее</a>
+		<a class="news-item__btn btn btn--sm" href="article.php">Подробнее</a>
 		<div class="news-item__date">10.02.2020</div>
 	</div>
 </div> <!-- news-item 1 end -->
