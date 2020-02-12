@@ -1,9 +1,3 @@
-<?php
-session_start();
-//require("functions.php"); 
-//connectDB();
-?>
-
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -28,4 +22,5 @@ require("php/blocks/head.php");
 
 	<script src="js/scripts.min.js"></script>
 </body>
+
 </html>
