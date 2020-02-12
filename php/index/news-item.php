@@ -1,5 +1,4 @@
 <div class="news-item">
-    <!-- news-item 1 start -->
     <div class="news-item__img">
         <img src=<?php echo $news[$i]["image"] ?> alt="Волейбол">
 
@@ -34,4 +33,4 @@
         <a class="news-item__btn btn btn--sm" href="article.php?id=<?php echo $news[$i]["id"] ?>">Подробнее</a>
         <div class="news-item__date"><?php echo $news[$i]["date"] ?></div>
     </div>
-</div> <!-- news-item 1 end -->
+</div>
