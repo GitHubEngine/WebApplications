@@ -1,13 +1,8 @@
-<?php
-session_start();
-//require("functions.php"); 
-//connectDB();
-?>
-
 <!DOCTYPE html>
 <html lang="ru">
 
 <?php
+$title = "Новости";
 require("php/blocks/head.php");
 ?>
 
@@ -27,4 +22,5 @@ require("php/blocks/head.php");
 
 	<script src="js/scripts.min.js"></script>
 </body>
+
 </html>
