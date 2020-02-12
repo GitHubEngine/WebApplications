@@ -22,4 +22,5 @@ require("php/blocks/head.php");
 
 	<script src="js/scripts.min.js"></script>
 </body>
+
 </html>
