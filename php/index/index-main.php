@@ -2,7 +2,7 @@
 $news = getNews(6);
 ?>
 
-<main>
+<main class="main">
 	<div class="wrapper">
 
 		<section id="news" class="news">
@@ -23,4 +23,8 @@ $news = getNews(6);
 		</section>
 
 	</div>
+
+	<?php
+	require("php/blocks/top.php");
+	?>
 </main>

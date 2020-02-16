@@ -1,6 +1,6 @@
 <?php $new = getNewByID($_GET['id']); ?>
 
-<main>
+<main class="main">
 	<div class="wrapper">
 
 		<section class="article">
@@ -19,7 +19,7 @@
 			<div class="article__info">
 				<div class="article__stats">
 					<div class="likes">
-						<span class="likes__count">221</span>
+						<span class="likes__count" data-likes="<?php echo $new[0]["likes"] ?>"><?php echo $new[0]["likes"] ?></span>
 
 						<i class="fas fa-heart"></i>
 					</div>
@@ -38,4 +38,8 @@
 		</section>
 
 	</div>
+
+	<?php
+	require("php/blocks/top.php");
+	?>
 </main>
