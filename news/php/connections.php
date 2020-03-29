@@ -3,4 +3,3 @@
 	$login = 'root';
 	$password = '';
 	$dbname = 'news';
-?>

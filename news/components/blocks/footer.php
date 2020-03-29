@@ -14,10 +14,14 @@
 
 	<nav class="footer-nav">
 		<ul class="footer-nav__list">
-			<li><a href="#!">Главная</a></li>
-			<li><a href="#!">Новости</a></li>
-			<li><a href="#!">Контакты</a></li>
-			<li><a href="#!">О нас</a></li>
+			<li><a href="index.html">Новости</a></li>
+			<? if (isset($_SESSION['user'])) : ?>
+				<li><a href="php/logout.php" class="registration-link">Выход</a></li>
+			<? else : ?>
+				<li><a href="#!" class="registration-link">Регистрация</a></li>
+				<li><a href="#!" class="authorization-link">Авторизация</a></li>
+			<? endif; ?>
+			<li><a href="#!" class="contact-link">Написать</a></li>
 		</ul>
 	</nav>
 </footer>
