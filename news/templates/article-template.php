@@ -41,9 +41,7 @@ $article = getArticleByID($_GET['id']);
 		</section>
 
 		<? if (isset($_SESSION['account_type']) && $_SESSION['account_type'] === 'admin') : ?>
-			<form method="post" action="php/delete-article.php?id=<?= $article[0]["id"] ?>">
-				<button class="btn btn--sm" name="delete" type="submit">Удалить новость?</button>
-			</form>
+			<button class="btn btn--sm remove-link">Удалить новость?</button>
 			<button class="btn btn--sm change-link" type="submit">Изменить новость?</button>
 		<? endif; ?>
 

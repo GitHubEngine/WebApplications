@@ -5,7 +5,7 @@
 		<ul class="header-nav__list">
 			<li><a href="index.php">Новости</a></li>
 			<? if (isset($_SESSION['user'])) : ?>
-				<li><a href="php/logout.php" class="contact-link">Выход</a></li>
+				<li><a href="php/logout.php">Выход</a></li>
 			<? else : ?>
 				<li><a href="#!" class="registration-link">Регистрация</a></li>
 				<li><a href="#!" class="authorization-link">Авторизация</a></li>

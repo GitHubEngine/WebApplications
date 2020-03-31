@@ -21,6 +21,7 @@ require_once("components/blocks/head.php");
 	require_once("components/modals/authorization.php");
 	require_once("components/modals/contact.php");
 	require_once("components/modals/change.php");
+	require_once("components/modals/remove.php");
 	?>
 
 	<script src="js/scripts.min.js"></script>

@@ -3,18 +3,16 @@ require_once("php/news.php");
 ?>
 
 <div class="news-item">
-	<? if (isset($_SESSION['account_type']) && $_SESSION['account_type'] === 'admin') : ?>
-		<div class="news-item__dots">
-			<i class="fas fa-circle"></i>
-			<i class="fas fa-circle"></i>
-			<i class="fas fa-circle"></i>
-		</div>
+	<div class="news-item__dots">
+		<i class="fas fa-circle"></i>
+		<i class="fas fa-circle"></i>
+		<i class="fas fa-circle"></i>
+	</div>
 
-		<div class="news-item__options">
-			<a href="#!" class="remove-link">Удалить</a>
-			<a href="#!" class="change-link">Изменить</a>
-		</div>
-	<? endif; ?>
+	<div class="news-item__options">
+		<a href="#!">Поделиться</a>
+		<a href="#!">Скопировать картинку</a>
+	</div>
 
 	<div class="news-item__img">
 		<img src=<? echo $news[$i]["image"] ?> alt=<? echo $news[$i]["category"] ?>>

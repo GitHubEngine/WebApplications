@@ -4,7 +4,7 @@
 			<i class="fas fa-times"></i>
 		</button>
 
-		<form class="form" method="post" action="php/add-article.php?id=<?= $new[0]['id'] ?>">
+		<form class="form" method="post" action="php/add-article.php">
 			<div class="form__group">
 				<label class="form__label" for="input-category">Категория</label>
 				<input class="form__input" name="input-category" type="text" placeholder="Введите категорию" required>
@@ -41,6 +41,7 @@
 			</div>
 
 			<button class="btn btn--sm" type="submit" name="add">Добавить</button>
+			<input class="btn btn--sm reset" type="reset" placeholder="Сбросить">
 		</form>
 	</div>
 </div>

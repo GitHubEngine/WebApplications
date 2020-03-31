@@ -13,10 +13,7 @@ function isEmailExist($mysqli, $email)
     $result = $stmt->get_result();
     $stmt->close();
 
-    if ($result->num_rows === 0)
-        return 0;
-    else
-        return 1;
+    return $result->num_rows === 0 ? 0 : 1;
 }
 
 function isPhoneExitst($mysqli, $phone)
@@ -28,10 +25,7 @@ function isPhoneExitst($mysqli, $phone)
     $result = $stmt->get_result();
     $stmt->close();
 
-    if ($result->num_rows === 0)
-        return 0;
-    else
-        return 1;
+    return $result->num_rows === 0 ? 0 : 1;
 }
 
 if (isset($_POST['signup'])) {
